@@ -443,7 +443,7 @@ public class TripPlannerFX extends Application {
         ImageView thankyouJames = new ImageView();
         thankyouJames.setImage(James);
 
-        HBBottom.getChildren().addAll(VBoxInBottomBox, pane, thankyouJames);
+        HBBottom.getChildren().addAll(VBoxInBottomBox, pane);
         pane.setStyle("-fx-background-color:orange;"
                 + "-fx-border-color:black;" + "-fx-padding: 10;"
                 + "-fx-border-style: solid inside;" + "-fx-border-width: 2;" +
